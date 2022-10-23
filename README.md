@@ -33,7 +33,7 @@ After downloading the data, I needed to clean it up so that it was usable for ou
 ## Exploratory Data Analysis (EDA)
 I looked at different distributions for both the numeric and categorical data. Below are highlights from the data visualization section
 
-![bar graph](https://github.com/MusaMasango/loan-prediction-machine-learning-project/blob/main/pivot%20table.png)
+![bar graph](https://github.com/MusaMasango/loan-prediction-machine-learning-project/blob/main/bar%20graph.png)
 ![pivot table](https://github.com/MusaMasango/BigData-on-the-spread-of-COVID-19-in-the-world/blob/main/covid%20cases.png)
 
 ## Model Building 
