@@ -44,7 +44,7 @@ I tried 3 different models and evaluated them using the accuracy score.
 The 3 different models used are:
 * Logistic regression - I thought I should try something new apart from the linear regression model
 * Decision tree - Since we have some categorical data, I thought it would be a good fit
-*Random forest - By considering the sparsity associated with the data, I thought it would also be a good fit
+* Random forest - By considering the sparsity associated with the data, I thought it would also be a good fit
 
 
 ## Model Performance
