@@ -34,16 +34,25 @@ After downloading the data, I needed to clean it up so that it was usable for ou
 I looked at different distributions for both the numeric and categorical data. Below are highlights from the data visualization section
 
 ![bar graph](https://github.com/MusaMasango/loan-prediction-machine-learning-project/blob/main/bar%20graph.png)
-![pivot table](https://github.com/MusaMasango/BigData-on-the-spread-of-COVID-19-in-the-world/blob/main/covid%20cases.png)
+![corr plot](https://github.com/MusaMasango/loan-prediction-machine-learning-project/blob/main/correlation%20plot.png)
 
 ## Model Building 
-The first step of the model building was hypthothesis creation. There are two methods that I used to test my hyphothesis, namely
-* Creating models using sklearn
-* Time series
+First I transformed categorical variables into dummy variables. I also split the data into train and test data sets with a test size of 30%. 
 
-First I formulated an hyphothesis based on the number of cases in Africa and the other continents. I then split the data into train and test sets with a test size of 30%. I used the linear regression model then evaluated it using the Mean Absolute Error, Mean Squared Error and Root Mean Squared Error. I then compared the linear regression model with the statsmodel obtained from the statsmodel.api framework. The predicted values from these models are different from the actual values with some uncertainty.
+I tried 3 different models and evaluated them using the accuracy score.
 
-Secondly I used the time series method to test my hyphothesis. In this case we only consider one time series since we are dealing with Africa. I then evaluated it using the Mean Absolute Error, Mean Squared Error and Root Mean Squared Error. The predicted values obtained using the time series are closer to the actual values. 
+The 3 different models used are:
+* Logistic regression - I thought I should try something new apart from the linear regression model
+* Decision tree - Since we have some categorical data, I thought it would be a good fit
+*Random forest - By considering the sparsity associated with the data, I thought it would also be a good fit
+
 
 ## Model Performance
-Out of the two methods, the time series performed better with an Mean Absolute Error: 765635.4335892488 when compared to the linear regression with an Mean Absolute Error (test): 162489418.69861022
+The logistic regression model far outperformed the the other approaches on the test ant validation sets
+* Random forest : Accuracy score = 68.11%
+* Random forest : Accuracy score = 81.08%
+* Logistic regression : Accuracy score = 83.24%
+
+## Conclusion
+Credit_History is a very important variable because of its high correlation with Loan_Status therefor showind high Dependancy for the latter.
+The Logistic Regression algorithm is the most accurate: approximately 83%
