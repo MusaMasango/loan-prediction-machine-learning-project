@@ -70,4 +70,5 @@ This results makes sense intuitively, since logistic regression algorithm works 
 
 ## Conclusion
 Credit_History is a very important variable because of its high correlation with Loan_Status therefor showind high Dependancy for the latter.
-The Logistic Regression algorithm is the most accurate: approximately 78%.
+The Logistic Regression algorithm is the most accurate: approximately 78%. 
+This project shows the importance and relevance of using machine learning for loan prediction. We saw some existing approaches and datasets used to approach loan eligibility prediction and how AI might help smoothen this process. Finally, we built an end-to-end loan prediction machine learning project using a publicly available dataset from scratch. At the end of this project, one would know how different features influence the model prediction and how specific attributes affect the decision more than the other features.
