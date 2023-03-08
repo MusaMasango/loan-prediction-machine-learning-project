@@ -62,7 +62,7 @@ The reason why I chose this models is beacause since we are dealing with a class
 
 ## Model Performance
 The logistic regression model far outperformed the the other approaches on the test and validation sets
-* Random forest : Accuracy score = 66.67%
+* Decision tree : Accuracy score = 66.67%
 * Random forest : Accuracy score = 77.78%
 * Logistic regression : Accuracy score = 78.47%
 
