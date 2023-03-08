@@ -69,6 +69,7 @@ The logistic regression model far outperformed the the other approaches on the t
 This results makes sense intuitively, since logistic regression algorithm works best where the target variable (dependant variable) is a binary, in this case since the loan status is a binary value between 0 and 1, the logistic regression algorithm will perform better compared to the other models.
 
 ## Conclusion
-Credit_History is a very important variable because of its high correlation with Loan_Status therefor showind high Dependancy for the latter.
-The Logistic Regression algorithm is the most accurate: approximately 78%. 
+1. Credit_History is a very important variable  because of its high correlation with Loan_Status therefore showing high Dependancy for the latter.
+2. The Logistic Regression algorithm is the most accurate: **approximately 78%**.
+3. This project showed how traditional machine learning approaches such as Random forest and Logistic regression perform well on a standard dataset. Depending on the type of dataset, in reality, these models will surely give a competitive performance. In other cases, like the ones where regular payments over a while are a deciding factor, time-series models such as RNNs or LSTMs would perform better.  
 This project shows the importance and relevance of using machine learning for loan prediction. We saw some existing approaches and datasets used to approach loan eligibility prediction and how AI might help smoothen this process. Finally, we built an end-to-end loan prediction machine learning project using a publicly available dataset from scratch. At the end of this project, one would know how different features influence the model prediction and how specific attributes affect the decision more than the other features.
