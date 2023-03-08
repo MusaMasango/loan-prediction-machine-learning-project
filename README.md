@@ -9,8 +9,7 @@ Next, we will consider loan prediction based on linear regression.
 To do this, the division of the DataSet into training and test sets will be demonstrated. It will be shown how to build models using 3 different machine learning algorithms. Then we will analyze the accuracy and adequacy of the obtained models.
 
 ## Objective 
- The main objective for this dataset:[](http://localhost:8888/notebooks/Loan%20Prediction%20Project/loan%20prediction%20machine%20learning%20project.ipynb#The-main-objective-for-this-dataset:)
-Using machine learning techniques to predict loan payments.
+The major aim of this project is to predict which of the customers will have their loan approved.
 
 ## Code and Resources used
 
@@ -42,17 +41,20 @@ First I transformed categorical variables into dummy variables. I also split the
 I tried 3 different models and evaluated them using the accuracy score.
 
 The 3 different models used are:
-* Logistic regression - I thought I should try something new apart from the linear regression model
-* Decision tree - Since we have some categorical data, I thought it would be a good fit
-* Random forest - By considering the sparsity associated with the data, I thought it would also be a good fit
+* Logistic regression Classifier 
+* Decision tree Classifier
+* Random forest Classifier
 
+The reason why I chose this models is beacause since we are dealing with a classification problem these models work best with categorical variables. In addition, these models are easy to implement.
 
 ## Model Performance
-The logistic regression model far outperformed the the other approaches on the test ant validation sets
-* Random forest : Accuracy score = 68.11%
-* Random forest : Accuracy score = 81.08%
-* Logistic regression : Accuracy score = 83.24%
+The logistic regression model far outperformed the the other approaches on the test and validation sets
+* Random forest : Accuracy score = 66.67%
+* Random forest : Accuracy score = 77.78%
+* Logistic regression : Accuracy score = 78.47%
+
+This results makes sense intuitively, since logistic regression algorithm works best where the target variable (dependant variable) is a binary, in this case since the loan status is a binary value between 0 and 1, the logistic regression algorithm will perform better compared to the other models.
 
 ## Conclusion
 Credit_History is a very important variable because of its high correlation with Loan_Status therefor showind high Dependancy for the latter.
-The Logistic Regression algorithm is the most accurate: approximately 83%
+The Logistic Regression algorithm is the most accurate: approximately 78%.
