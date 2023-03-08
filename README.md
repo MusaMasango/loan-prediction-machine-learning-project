@@ -11,10 +11,17 @@ To do this, the division of the DataSet into training and test sets will be demo
 ## Objective 
 The major aim of this project is to predict which of the customers will have their loan approved.
 
+## Stakeholders
+
+The results obtained from this project can be used by various stakeholders within the bank such as
+* Credit risk department
+* Loan department
+* Credit analysts
+* Underwriters
+
 ## Importance of the project
 
 Manual processing of loan applications is a long, cumbersome, error-prone, and often biased process. It might lead to financial disaster for banks and obstruct genuine applicants from getting the needed loans. Loan Prediction using machine learning tools and techniques can help financial institutions quickly process applications by rejecting high-risk customers entirely, accepting worthy customers, or assigning them to a manual review. Such processes with loan prediction using machine learning intact can reduce loan processing times by nearly 40%.
-
 
 
 ## Code and Resources used
