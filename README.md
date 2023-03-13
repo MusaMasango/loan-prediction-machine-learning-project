@@ -120,7 +120,9 @@ This results makes sense intuitively, since the logistic regression algorithm is
 
 
 ## Conclusion
-1. Credit_History is a very important variable  because of its high correlation with Loan_Status therefore showing high Dependancy for the latter.
-2. The Logistic Regression algorithm is the most accurate: **approximately 78%**.
-3. This project showed how traditional machine learning approaches such as Random forest and Logistic regression perform well on a standard dataset. Depending on the type of dataset, in reality, these models will surely give a competitive performance. In other cases, like the ones where regular payments over a while are a deciding factor, time-series models such as RNNs or LSTMs would perform better.  
+1. In this python machine learning project, I built a binary classifier using the 3 algorithms to predict the loan status. Through this project, I applied techniques to address the loan status imbalance issues and achieved an accuracy of more than 60%. The random forest model yields a very good performance as indicated by the model accuracy which was found to be 78.472222%.
+2. Credit_History is a very important variable  because of its high correlation with Loan_Status therefore showing high Dependancy for the latter.
+3. To address the issue of loan status imbalance problem, we used the oversampling technique, this was done by the SMOTE package imported from the imblearn module.
+4. ROC AUC of our models approaches towards 1. So, we can conclude that our classifier does a good job in predicting whether a loan will be approved or  not.
+Depending on the type of dataset, in reality, these models will surely give a competitive performance. In other cases, like the ones where regular payments over a while are a deciding factor, time-series models such as RNNs or LSTMs would perform better.  
 This project shows the importance and relevance of using machine learning for loan prediction. We saw some existing approaches and datasets used to approach loan eligibility prediction and how AI might help smoothen this process. Finally, we built an end-to-end loan prediction machine learning project using a publicly available dataset from scratch. At the end of this project, one would know how different features influence the model prediction and how specific attributes affect the decision more than the other features.
