@@ -51,7 +51,7 @@ I looked at different distributions for both the numeric and categorical data. B
 ## Model Building 
 Our dataset suffers a serious problem of class imbalance. The genuine (not fraud) transactions are more than 99% with the credit card fraud transactions constituting 0.17%.
 
-With such a distribution, if we train our model without taking care of the imbalance issues, it predicts the label with higher importance given to genuine transactions (as there is more data about them) and hence obtains more accuracy.
+With such a distribution, if we train our model without taking care of the imbalance issues, it predicts the label with higher importance given to genuine transactions (as there is more data about them) and hence obtains less accuracy.
 
 The class imbalance problem can be solved by various techniques. Oversampling is one of them.
 
